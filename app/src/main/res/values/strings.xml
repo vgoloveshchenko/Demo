@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name" translatable="false">Demo</string>
+
+    <!--General-->
+    <string name="general_error">Something went wrong</string>
+    <string name="error_item_button_title">Retry</string>
+
+    <!--Home navigation-->
+    <string name="bottom_navigation_users">Users</string>
+    <string name="bottom_navigation_countries">Countries</string>
+    <string name="bottom_navigation_settings">Settings</string>
+
+    <!--Users-->
+    <string name="users_menu_search_title">Search</string>
+    <string name="users_title">Users</string>
+
+    <!--User Details-->
+    <string name="user_details_followers">Followers: %1$d</string>
+    <string name="user_details_following">Following: %1$d</string>
+
+    <!--Settings-->
+    <string name="settings_title">Settings</string>
+    <string name="settings_button_night_mode">Dark theme</string>
+    <string name="settings_button_language">Language</string>
+
+    <!--Dark Mode-->
+    <string name="night_mode_title">Dark theme</string>
+    <string name="night_mode_button_dark">Dark mode</string>
+    <string name="night_mode_button_light">Light mode</string>
+    <string name="night_mode_button_default">System default mode</string>
+
+    <!--Language-->
+    <string name="language_title">Language</string>
+    <string name="language_button_en">English</string>
+    <string name="language_button_ru">Russian</string>
+</resources>

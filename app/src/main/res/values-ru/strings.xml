@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--General-->
+    <string name="general_error">Что-то пошло не так</string>
+    <string name="error_item_button_title">Повторить</string>
+
+    <!--Home navigation-->
+    <string name="bottom_navigation_users">Пользователи</string>
+    <string name="bottom_navigation_countries">Страны</string>
+    <string name="bottom_navigation_settings">Настройки</string>
+
+    <!--Users-->
+    <string name="users_menu_search_title">Поиск</string>
+    <string name="users_title">Пользователи</string>
+
+    <!--User Details-->
+    <string name="user_details_followers">Подписчики: %1$d</string>
+    <string name="user_details_following">Подписки: %1$d</string>
+
+    <!--Settings-->
+    <string name="settings_title">Настройки</string>
+    <string name="settings_button_night_mode">Тёмная тема</string>
+    <string name="settings_button_language">Язык</string>
+
+    <!--Dark Mode-->
+    <string name="night_mode_title">Тёмная тема</string>
+    <string name="night_mode_button_dark">Ночная</string>
+    <string name="night_mode_button_light">Дневная</string>
+    <string name="night_mode_button_default">Системная</string>
+
+    <!--Language-->
+    <string name="language_title">Язык</string>
+    <string name="language_button_en">Английский</string>
+    <string name="language_button_ru">Русский</string>
+</resources>

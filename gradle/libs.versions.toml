@@ -1,0 +1,88 @@
+[versions]
+minSdk = "21"
+compileSdk = "32"
+targetSdk = "32"
+
+kotlin-coroutines = "1.6.1"
+
+androidx-lifecycle = "2.4.1"
+androidx-appcompat = "1.4.1"
+androidx-fragment = "1.4.1"
+androidx-core = "1.7.0"
+androidx-navigation = "2.5.0"
+androidx-room = "2.4.2"
+androidx-contraintLayout = "2.1.3"
+androidx-swipeRefreshLayout = "1.1.0"
+androidx-splashScreen = "1.0.0-beta01"
+
+google-material = "1.6.0"
+google-map = "18.0.2"
+google-mapUtils = "1.3.3"
+google-location = "19.0.1"
+
+retrofit = "2.9.0"
+okHttpInterceptor = "4.10.0"
+
+koin = "3.2.0"
+
+coil = "2.0.0"
+
+test-junit = "4.13.2"
+test-robolectric = "4.6"
+test-androidx-core = "1.4.0"
+test-androidx-junit = "1.1.3"
+test-androidx-espresso = "3.4.0"
+test-mockk = "1.12.3"
+test-kaspresso = "1.4.1"
+
+[libraries]
+kotlin-coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlin-coroutines" }
+
+androidx-lifecycle-runtime = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "androidx-lifecycle" }
+androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "androidx-appcompat" }
+androidx-fragment = { module = "androidx.fragment:fragment-ktx", version.ref = "androidx-fragment" }
+androidx-core = { module = "androidx.core:core-ktx", version.ref = "androidx-core" }
+androidx-navigation-fragment = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "androidx-navigation" }
+androidx-navigation-ui = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "androidx-navigation" }
+androidx-room-runtime = { module = "androidx.room:room-ktx", version.ref = "androidx-room" }
+androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "androidx-room" }
+androidx-contraintLayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "androidx-contraintLayout" }
+androidx-swipeRefreshLayout = { module = "androidx.swiperefreshlayout:swiperefreshlayout", version.ref = "androidx-swipeRefreshLayout" }
+androidx-splashScreen = { module = "androidx.core:core-splashscreen", version.ref = "androidx-splashScreen" }
+
+google-material = { module = "com.google.android.material:material", version.ref = "google-material" }
+google-map = { module = "com.google.android.gms:play-services-maps", version.ref = "google-map" }
+google-mapUtils = { module = "com.google.maps.android:android-maps-utils", version.ref = "google-mapUtils" }
+google-location = { module = "com.google.android.gms:play-services-location", version.ref = "google-location" }
+
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+retrofit-converter = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit" }
+okHttpInterceptor = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "okHttpInterceptor" }
+
+koin = { module = "io.insert-koin:koin-android", version.ref = "koin" }
+
+coil = { module = "io.coil-kt:coil", version.ref = "coil" }
+
+test-junit = { module = "junit:junit", version.ref = "test-junit" }
+test-robolectric = { module = "org.robolectric:robolectric", version.ref = "test-robolectric" }
+test-androidx-core = { module = "androidx.test:core-ktx", version.ref = "test-androidx-core" }
+test-androidx-junit = { module = "androidx.test.ext:junit", version.ref = "test-androidx-junit" }
+test-androidx-fragment = { module = "androidx.fragment:fragment-testing", version.ref = "androidx-fragment" }
+test-androidx-navigation = { module = "androidx.navigation:navigation-testing", version.ref = "androidx-navigation" }
+test-mockk = { module = "io.mockk:mockk", version.ref = "test-mockk" }
+test-mockk-android = { module = "io.mockk:mockk-android", version.ref = "test-mockk" }
+test-koin = { module = "io.insert-koin:koin-test", version.ref = "koin" }
+test-koin-junit4 = { module = "io.insert-koin:koin-test-junit4", version.ref = "koin" }
+test-kotlin-coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "kotlin-coroutines" }
+test-kaspresso = { module = "com.kaspersky.android-components:kaspresso", version.ref = "test-kaspresso" }
+
+[bundles]
+androidx-navigation = [
+    "androidx-navigation-fragment",
+    "androidx-navigation-ui"
+]
+
+retrofit = [
+    "retrofit",
+    "retrofit-converter"
+]
